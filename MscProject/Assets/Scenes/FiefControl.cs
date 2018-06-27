@@ -1,36 +1,30 @@
-﻿using System;
+﻿using Assets.Scenes;
+using ProtoMessageClient;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace Assets.sence
-{
-    class FiefControl
-    {
-        /*
-        public ProtoGenericArray<ProtoFief> Check(Login l)
-        {
-            ProtoMessage checkMessage = new ProtoMessage();
-            checkMessage.ActionType = Actions.ViewMyFiefs;
-            l.Send(checkMessage);
-            var reply = GetActionReply(Actions.ViewMyFiefs, l);
-            var fiefs = (ProtoGenericArray<ProtoFief>)reply.Result;
-            return fiefs;
-        }
-        
-        public Task<ProtoMessage> GetActionReply(Actions action, Login l)
-        {
-            Task<ProtoMessage> responseTask = l.GetReply();
-            responseTask.Wait();
-            while (responseTask.Result.ActionType != action)
-            {
-                responseTask = l.GetReply();
-                responseTask.Wait();
-            }
-            l.ClearMessageQueues();
-            return responseTask;
-        }
-        */
+public class FiefControl : MonoBehaviour {
+    public Text text;
+    public Image midImage;
+    private static TextTestClient _testClient;
+    private GameOptions go;
+	// Use this for initialization
+	void Start () {
+        go = new GameOptions();
+        go.Connect("helen","potato");
+        text.text = go.FiefDetails(_testClient).fiefID;
+        //midImage.
+
+
+    }
+	
+	// Update is called once per frame
+	void Update () {
+
     }
 
 }

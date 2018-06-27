@@ -59,11 +59,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\enumType.cs" />
+    <Compile Include="Assets\Scenes\ButtonListener.cs" />
     <Compile Include="Assets\Scenes\FiefControl.cs" />
+    <Compile Include="Assets\Scenes\GameOptions.cs" />
     <Compile Include="Assets\Scenes\Login.cs" />
-    <Compile Include="Assets\Scenes\ProtoLogin.cs" />
-    <Compile Include="Assets\Scenes\ProtoMessage.cs" />
+    <Compile Include="Assets\Scenes\ScenesControl.cs" />
+    <Compile Include="Assets\Scenes\Test.cs" />
+    <Compile Include="Assets\Scenes\TestTextClient.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>H:/JEunity/MscProject/MscProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -270,6 +272,12 @@
     </Reference>
     <Reference Include="protobuf-net">
       <HintPath>H:/JEunity/MscProject/MscProject/Assets/Scenes/protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtoMessageClient">
+      <HintPath>H:/JEunity/MscProject/MscProject/Assets/Scenes/ProtoMessageClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>H:/JEunity/MscProject/MscProject/Assets/Scenes/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/31357_000/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
