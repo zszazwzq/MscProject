@@ -9,13 +9,34 @@ using System.Threading.Tasks;
 //using Assets.Scenes;
 public class Login : MonoBehaviour
 {
+    //login sence
     public InputField mainInputField1;
     public InputField mainInputField2;
     public Button Login_Button;
-    public Text midFief;
-   
+    //Fief sence
+    //IDs
+    public Text mID;
+    public Text nID;
+    public Text wID;
+    public Text sID;
+    public Text eID;
+    public Text nwID;
+    public Text neID;
+    public Text swID;
+    public Text seID;
+    //Buttons
+    public Button mB;
+    public Button nB;
+    public Button wB;
+    public Button sB;
+    public Button eB;
+    public Button nwB;
+    public Button neB;
+    public Button swB;
+    public Button seB;
+    //Other value
     private TextTestClient tclient;
-   // private IPAddress ip = NetUtility.Resolve("localhost");
+
 
     public void Start()
     {
