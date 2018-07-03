@@ -638,7 +638,24 @@ MonoBehaviour:
   mainInputField1: {fileID: 0}
   mainInputField2: {fileID: 0}
   Login_Button: {fileID: 0}
-  midFief: {fileID: 776656446}
+  mID: {fileID: 0}
+  nID: {fileID: 0}
+  wID: {fileID: 0}
+  sID: {fileID: 0}
+  eID: {fileID: 0}
+  nwID: {fileID: 0}
+  neID: {fileID: 0}
+  swID: {fileID: 0}
+  seID: {fileID: 0}
+  mB: {fileID: 0}
+  nB: {fileID: 0}
+  wB: {fileID: 0}
+  sB: {fileID: 0}
+  eB: {fileID: 0}
+  nwB: {fileID: 0}
+  neB: {fileID: 0}
+  swB: {fileID: 0}
+  seB: {fileID: 0}
 --- !u!1 &380432864
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +747,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1854881584}
+  - {fileID: 1065709347}
   m_Father: {fileID: 487355897}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -841,7 +859,6 @@ RectTransform:
   m_Children:
   - {fileID: 1264945956}
   - {fileID: 462612424}
-  - {fileID: 1065709347}
   m_Father: {fileID: 560458383}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1820,12 +1837,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 487355897}
-  m_RootOrder: 2
+  m_Father: {fileID: 462612424}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 20}
+  m_AnchoredPosition: {x: 32, y: 45}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065709348
@@ -1860,7 +1877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: N-E Fief
+  m_Text: North-East Fief
 --- !u!222 &1065709349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2174,7 +2191,7 @@ GameObject:
   - component: {fileID: 1149044239}
   - component: {fileID: 1149044238}
   m_Layer: 5
-  m_Name: sID
+  m_Name: weID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2393,7 +2410,7 @@ GameObject:
   - component: {fileID: 1228912008}
   - component: {fileID: 1228912007}
   m_Layer: 5
-  m_Name: SFief
+  m_Name: nwFief
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2414,7 +2431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 20}
+  m_AnchoredPosition: {x: 30, y: 20}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1228912007
@@ -2449,7 +2466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sorth Fief
+  m_Text: North-West Fief
 --- !u!222 &1228912008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2467,7 +2484,7 @@ GameObject:
   - component: {fileID: 1264945958}
   - component: {fileID: 1264945957}
   m_Layer: 5
-  m_Name: sID
+  m_Name: NEID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2541,7 +2558,7 @@ GameObject:
   - component: {fileID: 1310368749}
   - component: {fileID: 1310368748}
   m_Layer: 5
-  m_Name: sID
+  m_Name: nwID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2781,7 +2798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 20}
+  m_AnchoredPosition: {x: 32, y: 20}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400286880
@@ -2816,7 +2833,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sorth Fief
+  m_Text: Sorth-East Fief
 --- !u!222 &1400286881
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2982,7 +2999,7 @@ GameObject:
   - component: {fileID: 1499539665}
   - component: {fileID: 1499539664}
   m_Layer: 5
-  m_Name: sID
+  m_Name: seID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3276,7 +3293,7 @@ GameObject:
   - component: {fileID: 1608776684}
   - component: {fileID: 1608776683}
   m_Layer: 5
-  m_Name: moveS
+  m_Name: moveWE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3532,7 +3549,7 @@ GameObject:
   - component: {fileID: 1961034964}
   - component: {fileID: 1961034963}
   m_Layer: 5
-  m_Name: moveS
+  m_Name: moveNW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3643,7 +3660,7 @@ GameObject:
   - component: {fileID: 1962941703}
   - component: {fileID: 1962941702}
   m_Layer: 5
-  m_Name: moveS
+  m_Name: moveSE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3827,7 +3844,7 @@ GameObject:
   - component: {fileID: 2059248692}
   - component: {fileID: 2059248691}
   m_Layer: 5
-  m_Name: SFief
+  m_Name: WEFief
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3848,7 +3865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 20}
+  m_AnchoredPosition: {x: 30, y: 20}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059248691
@@ -3883,7 +3900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sorth Fief
+  m_Text: Sorth-West Fief
 --- !u!222 &2059248692
 CanvasRenderer:
   m_ObjectHideFlags: 0
