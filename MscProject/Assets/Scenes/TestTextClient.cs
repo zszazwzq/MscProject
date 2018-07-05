@@ -440,7 +440,7 @@ public class ConcurrentQueueWithEvent<T> : ConcurrentQueue<T>
                     {
                         Console.Error.WriteLine("A problem occurred when parsing certificate from bytes: \n" + "type: " + e.GetType().FullName + "\n " + ", source: " + e.Source + "\n message: " + e.Message);
                         key = null;
-                        return false;
+                        return true;
                     }
                 }
             }

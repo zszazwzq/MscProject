@@ -861,9 +861,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec3210a84a0fb546a36db76b0194729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainInputField1: {fileID: 0}
-  mainInputField2: {fileID: 0}
+  inputUsername: {fileID: 0}
+  inputPassword: {fileID: 0}
   Login_Button: {fileID: 0}
+  mID: {fileID: 0}
+  nID: {fileID: 0}
+  wID: {fileID: 0}
+  sID: {fileID: 0}
+  eID: {fileID: 0}
+  nwID: {fileID: 0}
+  neID: {fileID: 0}
+  swID: {fileID: 0}
+  seID: {fileID: 0}
+  mB: {fileID: 0}
+  nB: {fileID: 0}
+  wB: {fileID: 0}
+  sB: {fileID: 0}
+  eB: {fileID: 0}
+  nwB: {fileID: 0}
+  neB: {fileID: 0}
+  swB: {fileID: 0}
+  seB: {fileID: 0}
+  FiefID: {fileID: 0}
+  ownerID: {fileID: 0}
+  back: {fileID: 0}
+  Siege: {fileID: 0}
+  m_MyText: {fileID: 0}
 --- !u!1 &639390178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to The Jomini Engine
+  m_Text: Welcome to the Jomini Engine
 --- !u!222 &935986372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1372,7 +1395,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -1401,9 +1424,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec3210a84a0fb546a36db76b0194729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainInputField1: {fileID: 681705495}
-  mainInputField2: {fileID: 188016452}
+  inputUsername: {fileID: 681705495}
+  inputPassword: {fileID: 188016452}
   Login_Button: {fileID: 1843985854}
+  mID: {fileID: 0}
+  nID: {fileID: 0}
+  wID: {fileID: 0}
+  sID: {fileID: 0}
+  eID: {fileID: 0}
+  nwID: {fileID: 0}
+  neID: {fileID: 0}
+  swID: {fileID: 0}
+  seID: {fileID: 0}
+  mB: {fileID: 0}
+  nB: {fileID: 0}
+  wB: {fileID: 0}
+  sB: {fileID: 0}
+  eB: {fileID: 0}
+  nwB: {fileID: 0}
+  neB: {fileID: 0}
+  swB: {fileID: 0}
+  seB: {fileID: 0}
+  FiefID: {fileID: 0}
+  ownerID: {fileID: 0}
+  back: {fileID: 0}
+  Siege: {fileID: 0}
+  m_MyText: {fileID: 935986371}
 --- !u!1 &1843985852
 GameObject:
   m_ObjectHideFlags: 0

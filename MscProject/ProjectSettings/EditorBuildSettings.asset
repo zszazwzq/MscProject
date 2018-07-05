@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fief.unity
     guid: 1fc488a4461c29340b9b10aeab07a3bf
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 1
+    path: Assets/Scenes/FiefDeteil.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}

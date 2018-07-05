@@ -60,9 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\ButtonListener.cs" />
+    <Compile Include="Assets\Scenes\Controller.cs" />
     <Compile Include="Assets\Scenes\FiefControl.cs" />
     <Compile Include="Assets\Scenes\GameOptions.cs" />
-    <Compile Include="Assets\Scenes\Login.cs" />
+    <Compile Include="Assets\Scenes\LoginController.cs" />
     <Compile Include="Assets\Scenes\ScenesControl.cs" />
     <Compile Include="Assets\Scenes\Test.cs" />
     <Compile Include="Assets\Scenes\TestTextClient.cs" />
