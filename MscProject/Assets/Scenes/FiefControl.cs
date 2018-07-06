@@ -33,7 +33,7 @@ public class FiefControl : Controller
 
     //Other value
    // public static TextTestClient tclient;
-    private ProtoFief mf;
+   
 
 
     void Start () {

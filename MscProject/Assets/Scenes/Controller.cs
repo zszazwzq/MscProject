@@ -15,15 +15,9 @@ public class Controller : MonoBehaviour
     public InputField inputPassword;
     public Button loginButton;
     public Text buttonText;
-
-    //Fief detail sence
-    public Text FiefID;
-    public Text ownerID;
-    public Button back;
-    public Button Siege;
     //Other value
     protected static TextTestClient tclient;
- 
+    protected static ProtoFief mf;
     public Text m_MyText;
 
     public void Start()
