@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 451337112}
   - component: {fileID: 451337111}
   m_Layer: 5
-  m_Name: Button1Text
+  m_Name: LoginButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -863,7 +863,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputUsername: {fileID: 0}
   inputPassword: {fileID: 0}
-  Login_Button: {fileID: 0}
+  loginButton: {fileID: 0}
+  buttonText: {fileID: 0}
   mID: {fileID: 0}
   nID: {fileID: 0}
   wID: {fileID: 0}
@@ -1426,7 +1427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputUsername: {fileID: 681705495}
   inputPassword: {fileID: 188016452}
-  Login_Button: {fileID: 1843985854}
+  loginButton: {fileID: 1843985854}
+  buttonText: {fileID: 451337111}
   mID: {fileID: 0}
   nID: {fileID: 0}
   wID: {fileID: 0}
@@ -1462,7 +1464,7 @@ GameObject:
   - component: {fileID: 1843985855}
   - component: {fileID: 1843985854}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: LoginButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

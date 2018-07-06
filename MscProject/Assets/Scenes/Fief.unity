@@ -632,15 +632,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 239061626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ec3210a84a0fb546a36db76b0194729, type: 3}
+  m_Script: {fileID: 11500000, guid: 9eafa5da2a0d8314783f802464cbfcb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inputUsername: {fileID: 0}
   inputPassword: {fileID: 0}
-  Login_Button: {fileID: 0}
+  loginButton: {fileID: 0}
+  buttonText: {fileID: 0}
+  FiefID: {fileID: 0}
+  ownerID: {fileID: 0}
+  back: {fileID: 0}
+  Siege: {fileID: 0}
+  m_MyText: {fileID: 0}
   mID: {fileID: 776656446}
   nID: {fileID: 1444301911}
-  wID: {fileID: 1444301911}
+  wID: {fileID: 588768953}
   sID: {fileID: 1407211030}
   eID: {fileID: 771317717}
   nwID: {fileID: 1310368748}
@@ -656,10 +662,6 @@ MonoBehaviour:
   neB: {fileID: 462612425}
   swB: {fileID: 1608776683}
   seB: {fileID: 1962941702}
-  FiefID: {fileID: 0}
-  ownerID: {fileID: 0}
-  back: {fileID: 0}
-  Siege: {fileID: 0}
 --- !u!1 &380432864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,7 +1146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &588768954
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1292,7 +1294,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &771317718
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1366,7 +1368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &776656447
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2322,7 +2324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &1149044239
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2615,7 +2617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &1264945958
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2689,7 +2691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &1310368749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2982,7 +2984,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &1407211031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3056,7 +3058,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &1444301912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3199,7 +3201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ID
+  m_Text: none
 --- !u!222 &1499539665
 CanvasRenderer:
   m_ObjectHideFlags: 0
