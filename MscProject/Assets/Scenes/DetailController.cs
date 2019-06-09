@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,10 +13,19 @@ public class DetailController : Controller
     public Text Owner;
     public Text OwnerId;
     public Text IndustryLevel;
-    public Button back;
+    public Button map;
+    public Button army;
+    public Button hire;
+    public Button siege;
+    public Button profile;
+    public InputField inputNum;
 
     void Start () {
-        back.onClick.AddListener(backListener);
+        map.onClick.AddListener(mapListener);
+        army.onClick.AddListener(armyListener);
+        hire.onClick.AddListener(hireListener);
+        siege.onClick.AddListener(siegeListener);
+        profile.onClick.AddListener(profileListener);
         FiefId.text += mf.fiefID;
         Owner.text += mf.owner;
         OwnerId.text += mf.ownerID;
@@ -27,8 +37,31 @@ public class DetailController : Controller
 	void Update () {
 		
 	}
-    void backListener()
+    void mapListener()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
+    }
+    void armyListener()
+    {
+        ma = ArmyStatus(tclient);
+
+        SceneManager.LoadScene(3);
+
+    }
+    void hireListener()
+    {
+        string num = inputNum.text;
+        hr = HireTroops(int.Parse(num), tclient);
+        SceneManager.LoadScene(5);
+    }
+    void siegeListener()
+    {
+        sd = SiegeCurrentFief(tclient);
+        SceneManager.LoadScene(6);
+    }
+    void profileListener()
+    {
+        c = Profile(tclient);
+        SceneManager.LoadScene(4);
     }
 }

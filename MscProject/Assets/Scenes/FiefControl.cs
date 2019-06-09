@@ -8,13 +8,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class FiefControl : Controller
+public class fiefControl : Controller
 {
     //IDs
     public Text mID;
-    public Text nID;
+    //public Text nID;
     public Text wID;
-    public Text sID;
+    // public Text sID;
     public Text eID;
     public Text nwID;
     public Text neID;
@@ -22,26 +22,27 @@ public class FiefControl : Controller
     public Text seID;
     //Buttons
     public Button mB;
-    public Button nB;
+    //public Button nB;
     public Button wB;
-    public Button sB;
+    //public Button sB;
     public Button eB;
     public Button nwB;
     public Button neB;
     public Button swB;
     public Button seB;
-
+    
     //Other value
-   // public static TextTestClient tclient;
-   
+    // public static TextTestClient tclient;
 
 
-    void Start () {
-        
+
+    void Start()
+    {
+
         mB.onClick.AddListener(DetailButtonListener);
-        nB.onClick.AddListener(MoveButtonListenerN);
+        // nB.onClick.AddListener(MoveButtonListenerN);
         wB.onClick.AddListener(MoveButtonListenerW);
-        sB.onClick.AddListener(MoveButtonListenerS);
+        //sB.onClick.AddListener(MoveButtonListenerS);
         eB.onClick.AddListener(MoveButtonListenerE);
         nwB.onClick.AddListener(MoveButtonListenerNW);
         neB.onClick.AddListener(MoveButtonListenerNE);
@@ -51,7 +52,8 @@ public class FiefControl : Controller
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
 
     }
 
@@ -84,11 +86,11 @@ public class FiefControl : Controller
     }
     public enum MoveDirections
     {
-        E, W, S, N, Se, Sw, Ne, Nw
+        E, W, Se, Sw, Ne, Nw
     }
     public ProtoFief Move(MoveDirections directions)
     {
-        
+
         ProtoTravelTo protoTravel = new ProtoTravelTo();
         protoTravel.travelVia = new[] { directions.ToString() };
         protoTravel.characterID = "Char_158";
@@ -109,10 +111,6 @@ public class FiefControl : Controller
         Move(MoveDirections.W);
         wID.text = Move(MoveDirections.W).fiefID;
         Move(MoveDirections.E);
-        sID.text = Move(MoveDirections.S).fiefID;
-        Move(MoveDirections.N);
-        nID.text = Move(MoveDirections.N).fiefID;
-        Move(MoveDirections.S);
         seID.text = Move(MoveDirections.Se).fiefID;
         Move(MoveDirections.Nw);
         swID.text = Move(MoveDirections.Sw).fiefID;
@@ -121,7 +119,7 @@ public class FiefControl : Controller
         Move(MoveDirections.Sw);
         nwID.text = Move(MoveDirections.Nw).fiefID;
         Move(MoveDirections.Se);
- ;
+        ;
 
     }
     public void initFiefSence()
@@ -139,18 +137,22 @@ public class FiefControl : Controller
     {
         MoveTo(MoveDirections.E);
     }
+
     void MoveButtonListenerW()
     {
         MoveTo(MoveDirections.W);
     }
+    /*
     void MoveButtonListenerS()
     {
         MoveTo(MoveDirections.S);
     }
+   
     void MoveButtonListenerN()
     {
         MoveTo(MoveDirections.N);
     }
+     */
     void MoveButtonListenerSW()
     {
         MoveTo(MoveDirections.Sw);

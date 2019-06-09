@@ -8,10 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoginScreen.unity
     guid: c5900316ccbc5594b80e545617e58c8a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fief.unity
     guid: 1fc488a4461c29340b9b10aeab07a3bf
   - enabled: 1
     path: Assets/Scenes/FiefDeteil.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/map.unity
+    guid: 6ee3792ed1d8fd948b0d9735bf0268fc
+  - enabled: 1
+    path: Assets/Scenes/army.unity
+    guid: 1f3c3af7efff54242bb4033acb831b5a
+  - enabled: 1
+    path: Assets/Scenes/profile.unity
+    guid: b673f27780f3878489123c89d131d8bc
+  - enabled: 1
+    path: Assets/Scenes/hire.unity
+    guid: 8d415f5fd36a0964a9ce9fb3ed74caff
+  - enabled: 1
+    path: Assets/Scenes/siege.unity
+    guid: 22de87315ef63104dae1ff0596d7e6a5
   m_configObjects: {}
